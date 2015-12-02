@@ -1,94 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="36b50590-747d-45a3-9a09-811e19e78c05" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Smsgh/AbstractApi.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Smsgh/AbstractHttpClient.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Smsgh/AccountApi.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Smsgh/AccountContact.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Smsgh/AccountProfile.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Smsgh/Action.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Smsgh/Api.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Smsgh/ApiHost.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Smsgh/ApiList.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Smsgh/BasicAuth.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Smsgh/BasicHttpClient.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Smsgh/BasicRequestHandler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Smsgh/Campaign.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Smsgh/CommonUtil.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Smsgh/ConsoleLogger.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Smsgh/Contact.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Smsgh/ContactApi.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Smsgh/ContactGroup.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Smsgh/ContentApi.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Smsgh/ContentFolder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Smsgh/ContentLibrary.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Smsgh/ContentMedia.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Smsgh/CurlException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Smsgh/Enum.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Smsgh/FileExtensionMimeTypeMapping.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Smsgh/HttpDelete.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Smsgh/HttpGet.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Smsgh/HttpHead.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Smsgh/HttpPost.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Smsgh/HttpPut.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Smsgh/HttpRequest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Smsgh/HttpResponse.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Smsgh/HttpStatusCode.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Smsgh/Invoice.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Smsgh/JsonHelper.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Smsgh/MediaInfo.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Smsgh/Message.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Smsgh/MessageDirection.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Smsgh/MessageResponse.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Smsgh/MessageTemplate.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Smsgh/MessageType.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Smsgh/MessagingApi.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Smsgh/MoKeyWord.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Smsgh/NumberPlan.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Smsgh/NumberPlanItem.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Smsgh/OAuth.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Smsgh/RequestHandler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Smsgh/RequestLogger.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Smsgh/Sender.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Smsgh/Service.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Smsgh/ServiceType.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Smsgh/Setting.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Smsgh/SupportApi.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Smsgh/Tag.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Smsgh/Ticket.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Smsgh/TicketResponse.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Smsgh/Topup.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Smsgh/TopupLocation.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Smsgh/mime.types" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/magpierss/AUTHORS" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/magpierss/CHANGES" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/magpierss/ChangeLog" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/magpierss/INSTALL" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/magpierss/NEWS" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/magpierss/README" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/magpierss/TROUBLESHOOTING" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/magpierss/cookbook" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/magpierss/extlib/Snoopy.class.inc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/magpierss/htdocs/cookbook.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/magpierss/htdocs/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/magpierss/rss_cache.inc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/magpierss/rss_fetch.inc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/magpierss/rss_parse.inc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/magpierss/rss_utils.inc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/magpierss/scripts/README" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/magpierss/scripts/magpie_debug.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/magpierss/scripts/magpie_simple.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/magpierss/scripts/magpie_slashbox.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/magpierss/scripts/simple_smarty.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/magpierss/scripts/smarty_plugin/modifier.rss_date_parse.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/magpierss/scripts/templates/simple.smarty" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/config.xml" afterPath="$PROJECT_DIR$/views/config.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/views/index.xhtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/mybank.css" afterPath="$PROJECT_DIR$/assets/css/mybank.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/mybank.js" afterPath="$PROJECT_DIR$/controllers/mybank.js" />
-    </list>
+    <list default="true" id="36b50590-747d-45a3-9a09-811e19e78c05" name="Default" comment="" />
     <ignored path="MyBankWeb.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -112,8 +25,8 @@
       <file leaf-file-name="index.xhtml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/index.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6670561">
-              <caret line="188" column="0" selection-start-line="188" selection-start-column="0" selection-end-line="188" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.1588785">
+              <caret line="159" column="55" selection-start-line="159" selection-start-column="55" selection-end-line="159" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -378,8 +291,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/index.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6670561">
-          <caret line="188" column="0" selection-start-line="188" selection-start-column="0" selection-end-line="188" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.1588785">
+          <caret line="159" column="55" selection-start-line="159" selection-start-column="55" selection-end-line="159" selection-end-column="55" />
           <folding />
         </state>
       </provider>
