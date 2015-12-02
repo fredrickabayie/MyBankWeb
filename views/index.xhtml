@@ -11,10 +11,10 @@
     <title>Shop Item - Start Bootstrap Template</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet"/>
 
     <!-- Custom CSS -->
-    <link href="assets/css/mybank.css" rel="stylesheet"/>
+    <link href="../assets/css/mybank.css" rel="stylesheet"/>
 
     <!--&lt;!&ndash; HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries &ndash;&gt;-->
     <!--&lt;!&ndash; WARNING: Respond.js doesn't work if you view the page via file:// &ndash;&gt;-->
@@ -65,16 +65,15 @@
 </nav>
 
 <!-- Page Content -->
-<div class="container">
+<div class="container" id="addloc">
 
     <div class="row">
 
         <div class="col-md-3">
             <p class="lead">Employee Name</p>
             <div class="list-group">
-                <a href="#" class="list-group-item active"><span class="glyphicon glyphicon-map-marker"></span>Add Locations</a>
-                <a href="#" class="list-group-item">View Locations</a>
-                <a href="#" class="list-group-item">View Feedback</a>
+                <a href="#addloc" class="list-group-item active"><span class="glyphicon glyphicon-map-marker"></span>&nbsp;&nbsp;&nbsp;Add Locations</a>
+                <a href="#viewloc" class="list-group-item">View Locations</a>
             </div>
         </div>
 
@@ -150,15 +149,8 @@
                                             <li><a href="#">BEIGE</a></li>
                                         </ul>
                                     </div>
-                                    <span id="selected-bank"></span>
+                                    <span id="selected-bank">Select bank</span>
                                 </div>
-
-                                <!--<div class="col-lg-6">-->
-                                    <!--<div class="input-group">-->
-                                        <!--<span class="input-group-addon">ATM</span>-->
-                                        <!--<input type="text" id="bankName" class="form-control" placeholder="eg. Ecobank, Beige"/>-->
-                                    <!--</div>-->
-                                <!--</div>-->
 
                             </div>
 
@@ -167,7 +159,7 @@
                             <div class="row">
                                 <div class="col-lg-12">
                                     <div class="text-center">
-                                        <a class="btn btn-success" id="addLocation_btn">Update Database</a>
+                                        <a class="btn btn-success" accesskey="u" id="addLocation_btn">Update Database</a>
                                     </div>
                                 </div>
                             </div>
@@ -195,6 +187,7 @@
 </div>
 <!-- /.container -->
 
+
 <div class="container">
 
     <hr/>
@@ -212,14 +205,14 @@
 <!-- /.container -->
 
 <!-- jQuery -->
-<script type="text/javascript" src="assets/js/jquery.js"></script>
+<script type="text/javascript" src="../assets/js/jquery.js"></script>
 
 <!-- Bootstrap Core JavaScript -->
-<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../assets/js/bootstrap.min.js"></script>
 
 <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
 
-<script type="text/javascript" src="controllers/mybank.js"></script>
+<script type="text/javascript" src="../controllers/mybank.js"></script>
 
 </body>
 </html>

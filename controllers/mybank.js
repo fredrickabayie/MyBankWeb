@@ -59,6 +59,9 @@ $('#type-menu').find('li a').click(function() {
     document.getElementById('selected-type').textContent = $(this).text();
 });
 
+$(function() {
+   //$('#viewloc').hide();
+});
 
 
 var geocoder = new google.maps.Geocoder();
