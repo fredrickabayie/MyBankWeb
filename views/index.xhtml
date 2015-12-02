@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+
+    <title>Shop Item - Start Bootstrap Template</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet"/>
+
+    <!-- Custom CSS -->
+    <link href="../assets/css/mybank.css" rel="stylesheet"/>
+
+    <!--&lt;!&ndash; HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries &ndash;&gt;-->
+    <!--&lt;!&ndash; WARNING: Respond.js doesn't work if you view the page via file:// &ndash;&gt;-->
+    <!--&lt;!&ndash;[if lt IE 9]>-->
+    <!--&lt;!&ndash;<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>&ndash;&gt;-->
+    <!--&lt;!&ndash;<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>&ndash;&gt;-->
+    <!--<![endif]&ndash;&gt;-->
+
+    <style type="text/css">
+        #map {
+            width: auto;
+            height: 400px;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">MyBank</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">Services</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+<!-- Page Content -->
+<div class="container">
+
+    <div class="row">
+
+        <div class="col-md-3">
+            <p class="lead">Employee Name</p>
+            <div class="list-group">
+                <a href="#" class="list-group-item active"><span class="glyphicon glyphicon-map-marker"></span>Add Locations</a>
+                <a href="#" class="list-group-item">View Locations</a>
+                <a href="#" class="list-group-item">View Feedback</a>
+            </div>
+        </div>
+
+        <div class="col-md-9">
+
+            <div class="well">
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div id="map"></div>
+                    </div>
+                </div>
+
+                <hr />
+
+                <div class="row">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Geo Location</h3>
+                        </div>
+                        <div class="panel-body">
+
+                            <div class="row">
+
+                                <div class="col-lg-6">
+                                    <div class="input-group">
+                                        <span class="input-group-addon">Latitude</span>
+                                        <input type="text" id="latitudeVal" class="form-control" placeholder="eg. -0.219465" disabled="disabled"/>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6">
+                                    <div class="input-group">
+                                        <span class="input-group-addon">Longitude</span>
+                                        <input type="text" id="longitudeVal" class="form-control" placeholder="eg. 5.759625" disabled="disabled"/>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <hr/>
+
+                            <div class="row">
+
+                                <div class="col-lg-6">
+                                    <div class="input-group">
+                                        <span class="input-group-addon">Area</span>
+                                        <input type="text" id="areaName" class="form-control" placeholder="eg. Achimota"/>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3">
+                                    <div class="btn-group">
+                                        <button id="okay" type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            Type <span class="caret"></span>
+                                        </button>
+                                        <ul class="dropdown-menu" id="type-menu">
+                                            <li><a href="#">ATM</a></li>
+                                            <li><a href="#">BRANCH</a></li>
+                                        </ul>
+                                    </div>
+                                    <span id="selected-type">Select type</span>
+                                    </div>
+
+                                <div class="col-lg-3">
+
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            BANK <span class="caret"></span>
+                                        </button>
+                                        <ul class="dropdown-menu" id="bank-menu">
+                                            <li><a href="#">ECOBANK</a></li>
+                                            <li><a href="#">BEIGE</a></li>
+                                        </ul>
+                                    </div>
+                                    <span id="selected-bank"></span>
+                                </div>
+
+                                <!--<div class="col-lg-6">-->
+                                    <!--<div class="input-group">-->
+                                        <!--<span class="input-group-addon">ATM</span>-->
+                                        <!--<input type="text" id="bankName" class="form-control" placeholder="eg. Ecobank, Beige"/>-->
+                                    <!--</div>-->
+                                <!--</div>-->
+
+                            </div>
+
+                            <hr/>
+
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="text-center">
+                                        <a class="btn btn-success" id="addLocation_btn">Update Database</a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div id="infoPanel" style="display: none">
+                                <b>Marker status:</b>
+                                <div id="markerStatus"><i>Click and drag the marker.</i></div>
+
+                                <div id="info"></div>
+                                <b>Closest matching address:</b>
+                                <div id="address"></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+<!-- /.container -->
+
+<div class="container">
+
+    <hr/>
+
+    <!-- Footer -->
+    <footer>
+        <div class="row">
+            <div class="col-lg-12">
+                <p>Copyright &copy; Your Website 2014</p>
+            </div>
+        </div>
+    </footer>
+
+</div>
+<!-- /.container -->
+
+<!-- jQuery -->
+<script type="text/javascript" src="../assets/js/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script type="text/javascript" src="../assets/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+
+<script type="text/javascript" src="../controllers/mybank.js"></script>
+
+</body>
+</html>

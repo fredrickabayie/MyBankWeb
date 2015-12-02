@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets"
+        xmlns:gap="http://phonegap.com/ns/1.0"
+        id="com.fredrickabayie.mybank"
+        versionCode="13"
+        version="1.2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://phonegap.com/ns/1.0 ">
+    <name>MyBank</name>
+    <description>
+        A platform to allow the admin to add new atm and bank locations.
+    </description>
+    <author href="http://www.ashesi.edu.gh" email="fredrick.abayie@ashesi.edu.gh">
+        Fredrick Abayie
+    </author>
+    <icon src="icon.png"/>
+    <gap:splash src="splash.png"/>
+</widget>
