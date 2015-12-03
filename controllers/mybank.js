@@ -70,15 +70,12 @@ $(function() {
 
     response = sendRequest(url);
     if (response.result === 1) {
-
         for (index = 1; index < 6; index++) {
             li += '<li class="list-group-item list-group-item-success">';
-            li += '<a href='+response.rss[index].link+' accesskey='+index+'>' +
-                '<i style="color: #FF6600" class="fa fa-rss"></i></a>&nbsp;&nbsp;';
+            li += '<a href='+response.rss[index].link+' accesskey='+index+'><i style="color: #FF6600" class="fa fa-rss"></i></a>&nbsp;&nbsp;';
             li += response.rss[index].title+'</li>';
         }
         $("#rss-feed").html(li);
-
     } else {
         alert(""+response.status);
     }
