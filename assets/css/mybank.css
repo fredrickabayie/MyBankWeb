@@ -25,3 +25,23 @@ body {
 footer {
     margin: 50px 0;
 }
+
+@media only screen and (max-width: 768px) {
+    body {
+        background: black;
+    }
+    
+    .lead {
+        color: #fff;
+    }
+
+    .addLocation_btn {
+        background: #26a69a;
+    }
+
+    
+    .list-group-item-info, .rss-feed, footer, .notification, .addhead {
+        display: none;
+    }
+
+}
